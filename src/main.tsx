@@ -1,7 +1,7 @@
-import { StrictMode } from 'react';
+import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App';
-import './assets/scss/style.scss';
+import 'hyun-design-system/dist/style.css';
 
 const container = document.getElementById('root');
 
