@@ -10,14 +10,13 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": "./src"
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@styles/*": ["styles/*"],
+      "@utils/*": ["utils/*"]
+    }
   },
   "include": ["src"],
-  "exclude": ["node_modules", "dist"],
-  "baseUrl": "./src",
-  "paths": {
-    "@components/*": ["components/*"],
-    "@styles/*": ["styles/*"],
-    "@utils/*": ["utils/*"]
-  }
+  "exclude": ["node_modules", "dist"]
 }
