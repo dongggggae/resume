@@ -27,8 +27,8 @@ const AboutMe = () => {
           </Text>
           <Text color="secondary">
             퍼블리셔로서 프로젝트의 처음부터 끝까지 참여하면서 프론트엔드 개발에 대한{' '}
-            <span className="fw--700">관심과 역량</span>을 쌓았고, 앞으로는 더 효율적이고 확장 가능한 프론트엔드 시스템
-            구축을 목표로 하고 있습니다.
+            <span className="fc--primary fw--700">관심과 역량</span>을 쌓았고, 앞으로는 더 효율적이고 확장 가능한
+            프론트엔드 시스템 구축을 목표로 하고 있습니다.
           </Text>
         </div>
       </div>
