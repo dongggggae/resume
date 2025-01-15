@@ -10,33 +10,33 @@ $dark-gray-color: #d0d0d2 !default;
 
 $root-color: () !default;
 $root-color: map-merge(
-	(
-		'main-point-color': #{$main-point-color},
-		'sub-point-color': #{$sub-point-color},
-		'main-text-color': #{$main-text-color},
-		'sub-text-color': #{$sub-text-color},
-		'white-text-color': #{$white-text-color},
-		'light-gray-color': #{$light-gray-color},
-		'gray-color': #{$gray-color},
-		'dark-gray-color': #{$dark-gray-color},
-	),
-	$root-color
+  (
+    'main-point-color': #{$main-point-color},
+    'sub-point-color': #{$sub-point-color},
+    'main-text-color': #{$main-text-color},
+    'sub-text-color': #{$sub-text-color},
+    'white-text-color': #{$white-text-color},
+    'light-gray-color': #{$light-gray-color},
+    'gray-color': #{$gray-color},
+    'dark-gray-color': #{$dark-gray-color},
+  ),
+  $root-color
 );
 
 $font-colors: (
-	primary: $main-text-color,
-	secondary: $sub-text-color,
-	tertiary: $white-text-color,
-	information: $main-point-color,
+  primary: $main-text-color,
+  secondary: $sub-text-color,
+  tertiary: $white-text-color,
+  information: $main-point-color,
 );
 $heading-text-base-color: $main-text-color;
 $text-base-color: $sub-text-color;
 
 $font-colors: (
-	primary: $main-text-color,
-	secondary: $sub-text-color,
-	tertiary: $white-text-color,
-	information: $main-point-color,
+  primary: $main-text-color,
+  secondary: $sub-text-color,
+  tertiary: $white-text-color,
+  information: $main-point-color,
 );
 $heading-text-base-color: $main-text-color;
 $text-base-color: $sub-text-color;
@@ -51,10 +51,10 @@ $text-md-line-height: 24px !default;
 $text-lg-line-height: 28px !default;
 $text-xl-line-height: 32px !default;
 $text-sizes: (
-	sm: $text-sm-font-size $text-sm-line-height,
-	md: $text-md-font-size $text-md-line-height,
-	lg: $text-lg-font-size $text-lg-line-height,
-	xl: $text-xl-font-size $text-xl-line-height,
+  sm: $text-sm-font-size $text-sm-line-height,
+  md: $text-md-font-size $text-md-line-height,
+  lg: $text-lg-font-size $text-lg-line-height,
+  xl: $text-xl-font-size $text-xl-line-height,
 );
 
 // Heading Size
@@ -72,12 +72,12 @@ $heading-2-line-height: 56px !default;
 $heading-1-line-height: 62px !default;
 
 $heading-sizes: (
-	h6: $heading-6-font-size $heading-6-line-height,
-	h5: $heading-5-font-size $heading-5-line-height,
-	h4: $heading-4-font-size $heading-4-line-height,
-	h3: $heading-3-font-size $heading-3-line-height,
-	h2: $heading-2-font-size $heading-2-line-height,
-	h1: $heading-1-font-size $heading-1-line-height,
+  h6: $heading-6-font-size $heading-6-line-height,
+  h5: $heading-5-font-size $heading-5-line-height,
+  h4: $heading-4-font-size $heading-4-line-height,
+  h3: $heading-3-font-size $heading-3-line-height,
+  h2: $heading-2-font-size $heading-2-line-height,
+  h1: $heading-1-font-size $heading-1-line-height,
 );
 
 // Grid
@@ -86,9 +86,9 @@ $grid-break-point-lg: 991px !default;
 
 $root-break-point: () !default;
 $root-break-point: map-merge(
-	(
-		'grid-break-point-md': #{$grid-break-point-md},
-		'grid-break-point-lg': #{$grid-break-point-lg},
-	),
-	$root-break-point
+  (
+    'grid-break-point-md': #{$grid-break-point-md},
+    'grid-break-point-lg': #{$grid-break-point-lg},
+  ),
+  $root-break-point
 );

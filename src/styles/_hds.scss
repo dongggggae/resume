@@ -1,0 +1,12 @@
+.badge {
+  $badge-bg: var(--main-point-color);
+  $badge-padding-y: 2px;
+  $badge-padding-x: 4px;
+  $badge-border-radius: 4px;
+  $badge-height: auto;
+
+  height: $badge-height;
+  padding: $badge-padding-y $badge-padding-x;
+  background-color: $badge-bg;
+  border-radius: $badge-border-radius;
+}

@@ -70,3 +70,38 @@
   border-bottom: dashed 2px var(--dark-gray-color);
   text-align: center;
 }
+
+.content__wrap {
+  display: flex;
+
+  .content {
+    padding: 0 var(--hds-4);
+  }
+
+  .content-left {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+
+    .profile-image {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 1px solid #000;
+    }
+  }
+
+  .content-right {
+    flex: 3;
+
+    .badge-box{
+      vertical-align: bottom;
+    }
+  }
+
+  @media screen and (max-width: $grid-break-point-md) {
+    flex-direction: column;
+    row-gap: var(--hds-8);
+  }
+}
