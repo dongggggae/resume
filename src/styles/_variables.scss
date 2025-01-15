@@ -28,15 +28,9 @@ $font-colors: (
   secondary: $sub-text-color,
   tertiary: $white-text-color,
   information: $main-point-color,
-);
-$heading-text-base-color: $main-text-color;
-$text-base-color: $sub-text-color;
-
-$font-colors: (
-  primary: $main-text-color,
-  secondary: $sub-text-color,
-  tertiary: $white-text-color,
-  information: $main-point-color,
+  light-gray: $light-gray-color,
+  gray: $gray-color,
+  dark-gray: $dark-gray-color,
 );
 $heading-text-base-color: $main-text-color;
 $text-base-color: $sub-text-color;
@@ -65,7 +59,7 @@ $heading-3-font-size: 42px !default;
 $heading-2-font-size: 48px !default;
 $heading-1-font-size: 54px !default;
 $heading-6-line-height: 36px !default;
-$heading-5-line-height: 42px !default;
+$heading-5-line-height: 40px !default;
 $heading-4-line-height: 44px !default;
 $heading-3-line-height: 52px !default;
 $heading-2-line-height: 56px !default;
