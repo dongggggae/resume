@@ -58,6 +58,7 @@
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
+  padding-bottom: var(--hds-14);
 
   .container {
     .text-underline {
@@ -68,7 +69,7 @@
 }
 
 .step-title {
-  padding-bottom: var(--hds-3);
+  padding-bottom: var(--hds-4);
   border-bottom: dashed 1px var(--dark-gray-color);
   text-align: center;
 }
@@ -77,12 +78,30 @@
   display: flex;
 
   .content {
-    padding: 0 var(--hds-4);
+    padding: 0 var(--hds-5);
+
+    .list {
+      display: flex;
+      flex-direction: column;
+      row-gap: 8px;
+
+      li {
+        position: relative;
+        padding-left: 14px;
+
+        &::after {
+          position: absolute;
+          left: 0;
+          display: inline-block;
+          content: '•';
+          color: var(--main-point-color);
+        }
+      }
+    }
   }
 
   .content-left {
     display: flex;
-    justify-content: center;
     align-items: flex-start;
     flex: 1;
 
@@ -98,18 +117,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex: 3;
+    flex: 2;
 
     .badge-box {
       vertical-align: bottom;
-    }
-
-    .list {
-      display: flex;
-      flex-direction: column;
-      row-gap: 8px;
-      list-style: disc;
-      margin-left: 10px;
     }
   }
 
@@ -126,6 +137,8 @@
     row-gap: var(--hds-8);
 
     .content-left {
+      justify-content: center;
+
       .v-stack {
         align-items: center;
       }

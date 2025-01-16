@@ -2,7 +2,8 @@ import React from 'react';
 
 import Header from './components/sections/Header';
 import AboutMe from './components/sections/AboutMe';
-import Experience from './components/sections/Experience';
+import WorkExperience from './components/sections/WorkExperience';
+import OtherExperience from './components/sections/OtherExperience';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Header />
       <main className="main" aria-label="Content">
         <AboutMe />
-        <Experience />
+        <WorkExperience />
+        <OtherExperience />
       </main>
     </div>
   );
