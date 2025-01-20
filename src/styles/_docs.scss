@@ -74,6 +74,18 @@
   text-align: center;
 }
 
+.other-experience__section {
+  @media screen and (max-width: $grid-break-point-md) {
+    .content__wrap {
+      row-gap: var(--hds-3);
+
+      .content-left .v-stack {
+        align-items: flex-start;
+      }
+    }
+  }
+}
+
 .content__wrap {
   display: flex;
 
@@ -83,14 +95,15 @@
     .list {
       display: flex;
       flex-direction: column;
-      row-gap: 8px;
+      row-gap: 6px;
 
       li {
         position: relative;
-        padding-left: 14px;
+        padding-left: 12px;
 
         &::after {
           position: absolute;
+          top: 0;
           left: 0;
           display: inline-block;
           content: '•';
@@ -108,8 +121,18 @@
     .profile-image {
       width: 200px;
       height: 200px;
-      border-radius: 50%;
-      border: 1px solid #000;
+      overflow: hidden;
+
+      .img {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        border-radius: 50%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../assets/profile.png);
+      }
     }
   }
 
@@ -122,15 +145,26 @@
     .badge-box {
       vertical-align: bottom;
     }
+
+    p.quote {
+      text-align: center;
+    }
   }
 
-  // @media screen and (min-width: $grid-break-point-md) and (max-width: $grid-break-point-lg) {
-  //   .content-right {
-  //     .list {
-  //       margin-left: 24px;
-  //     }
-  //   }
-  // }
+  .bar {
+    position: relative;
+    padding-left: 15px;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 1px;
+      width: 2px;
+      height: 100%;
+      background-color: var(--main-point-color);
+    }
+  }
 
   @media screen and (max-width: $grid-break-point-md) {
     flex-direction: column;

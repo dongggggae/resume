@@ -9,7 +9,9 @@ const AboutMe = () => {
       <StepTitle title="About Me" />
       <div className="content__wrap">
         <div className="content-left content">
-          <div className="profile-image"></div>
+          <div className="profile-image">
+            <span className='img'></span>
+          </div>
         </div>
         <div className="content-right content">
           <Text color="secondary" size='lg'>
