@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 
-const BarBox = ({ children }) => {
+interface BarBoxProps {
+  children: ReactNode;
+}
+
+const BarBox: React.FC<BarBoxProps> = ({ children }) => {
   return <div className="bar">{children}</div>;
 };
+
 export default BarBox;
