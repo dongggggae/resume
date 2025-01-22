@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Badge, Container, Text, Stack } from 'hyun-design-system';
+import { Badge, Container, Text } from 'hyun-design-system';
 import StepTitle from '../common/StepTitle';
 
 const AboutMe = () => {
@@ -10,27 +10,27 @@ const AboutMe = () => {
       <div className="content__wrap">
         <div className="content-left content">
           <div className="profile-image">
-            <span className='img'></span>
+            <span className="img"></span>
           </div>
         </div>
         <div className="content-right content">
-          <Text color="secondary" size='lg'>
-            2년의 웹 퍼블리셔 경험을 바탕으로, 웹 페이지 구현 및 UI/UX 최적화 중심의{' '}
-            <span className="fc--primary fw--700">프론트엔드 개발자</span>에 관심을 가지게 되었습니다.
+          <Text color="secondary" size="lg">
+            웹 퍼블리셔로 2년간 다양한 프로젝트를 진행하면서 자연스럽게 &nbsp;
+            <span className="fc--primary fw--700">프론트엔드 개발</span>에 대한 관심을 가지게 되었습니다.
           </Text>
-          <Text color="secondary" size='lg'>
-            HTML, CSS, JavaScript를 이용한 웹 구축과 프론트엔드 최적화 경험을 통해 &nbsp;
-            <Stack gap={1} className="d-inline-flex badge-box">
+          <Text color="secondary" size="lg">
+            현재는 &nbsp;
+            <span className="d-inline-flex h-stack gap-1 badge-box">
               <Badge text="React" size="sm" />,
               <Badge text="Vue" size="sm" />,
               <Badge text="TypeScript" size="sm" />
-            </Stack>
-            &nbsp;등 최신 웹 기술을 학습하며 프론트엔드 개발자로의 전환을 목표로 하고 있습니다.
+            </span>
+            &nbsp;를 학습하며 개발자로서의 역량을 키워가고 있습니다.
           </Text>
-          <Text color="secondary" size='lg'>
-            퍼블리셔로서 프로젝트의 처음부터 끝까지 참여하면서 프론트엔드 개발에 대한{' '}
-            <span className="fc--primary fw--700">관심과 역량</span>을 쌓았고, 앞으로는 더 효율적이고 확장 가능한
-            프론트엔드 시스템 구축을 목표로 하고 있습니다.
+          <Text color="secondary" size="lg">
+            저는 웹 퍼블리셔로서 쌓은 <span className="fc--primary fw--700">경험</span>과 새롭게 배울 프론트엔드
+            개발자로서의 <span className="fc--primary fw--700">역량</span>을 합쳐, 더 나은 사용자 경험을 만들어내는
+            개발자가 되고 싶습니다.
           </Text>
         </div>
       </div>
