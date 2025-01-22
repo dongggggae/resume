@@ -12,9 +12,9 @@ const WorkExperience = () => {
         <div className="content-left content">
           <Stack direction="col" gap={1}>
             <Heading size={5} level="h3" color="primary">
-              하이컨시<span className="fc--information">.</span>
+              하이컨시
             </Heading>
-            <Text className="fw--600">FE개발팀 / 웹퍼블리셔</Text>
+            <Text className="fw--600">FE개발팀 / 웹 퍼블리셔</Text>
             <Text color="secondary">
               <a target="_blank" href="https://www.hiconsy.com/" className="text-underline">
                 https://www.hiconsy.com/
@@ -28,7 +28,6 @@ const WorkExperience = () => {
             <Stack direction="col" gap={3}>
               <Heading size={6} level="h6" color="primary">
                 Nuxt를 활용한 관리자 페이지 대시보드 구현
-                <span className="fc--information">.</span>
               </Heading>
               <BarBox>
                 <Stack gap={2} direction="col">
@@ -88,7 +87,6 @@ const WorkExperience = () => {
             <Stack direction="col" gap={3}>
               <Heading size={6} level="h6" color="primary">
                 비디오 스트리밍 기반 온라인 강의 홈페이지 구축
-                <span className="fc--information">.</span>
               </Heading>
               <BarBox>
                 <Stack gap={2} direction="col">
@@ -136,7 +134,6 @@ const WorkExperience = () => {
             <Stack direction="col" gap={3}>
               <Heading size={6} level="h6" color="primary">
                 공통 컴포넌트 개발 및 디자인 시스템 라이브러리 유지보수
-                <span className="fc--information">.</span>
               </Heading>
               <BarBox>
                 <Stack gap={2} direction="col">
@@ -187,7 +184,6 @@ const WorkExperience = () => {
             <Stack direction="col" gap={3}>
               <Heading size={6} level="h6" color="primary">
                 통합 회원 인증 및 알림 메일 템플릿 개발
-                <span className="fc--information">.</span>
               </Heading>
               <BarBox>
                 <Stack gap={2} direction="col">
@@ -236,7 +232,6 @@ const WorkExperience = () => {
             <Stack direction="col" gap={3}>
               <Heading size={6} level="h6" color="primary">
                 수강 신청 및 컨설팅 페이지 유지보수, 성적 분석 시스템 구축
-                <span className="fc--information">.</span>
               </Heading>
               <BarBox>
                 <Stack gap={2} direction="col">
@@ -289,7 +284,6 @@ const WorkExperience = () => {
             <Stack direction="col" gap={3}>
               <Heading size={6} level="h6" color="primary">
                 도서 판매 플랫폼 유지보수 및 프로모션 페이지 개발
-                <span className="fc--information">.</span>
               </Heading>
               <BarBox>
                 <Stack gap={2} direction="col">
@@ -326,7 +320,7 @@ const WorkExperience = () => {
                     <ul className="list">
                       <li>
                         <Stack gap={1}>
-                          <Badge text="AOS()" size="sm" />
+                          <Badge text="AOS" size="sm" />
                           <Badge text="HTML/CSS" size="sm" />
                           <Badge text="GitHub Actions" size="sm" />
                         </Stack>

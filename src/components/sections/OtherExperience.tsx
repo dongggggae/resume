@@ -13,7 +13,7 @@ const OtherExperience = () => {
           <div className="content-left content">
             <Stack direction="col" gap={1} className="experience-desc">
               <Heading size={6} level="h5" color="primary">
-                Hyun-Design-System<span className="fc--information">.</span>
+                Hyun-Design-System
               </Heading>
               <a href="https://hyun-design-system-five.vercel.app/" target="_blank" className="text-underline">
                 https://hyun-design-system-five.vercel.app/
@@ -63,7 +63,7 @@ const OtherExperience = () => {
           <div className="content-left content">
             <Stack direction="col" gap={1} className="experience-desc">
               <Heading size={6} level="h6" color="primary">
-                Velog<span className="fc--information">.</span>
+                Velog
               </Heading>
               <a href="https://velog.io/@_imhyunnn/" target="_blank" className="text-underline">
                 https://velog.io/@_imhyunnn/
