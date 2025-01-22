@@ -12,8 +12,8 @@ const OtherExperience = () => {
         <div className="content__wrap">
           <div className="content-left content">
             <Stack direction="col" gap={1} className="experience-desc">
-              <Heading size={6} level="h6" color="primary" className="fw--600">
-                Hyun-Design-System
+              <Heading size={6} level="h5" color="primary">
+                Hyun-Design-System<span className="fc--information">.</span>
               </Heading>
               <a href="https://hyun-design-system-five.vercel.app/" target="_blank" className="text-underline">
                 https://hyun-design-system-five.vercel.app/
@@ -30,7 +30,9 @@ const OtherExperience = () => {
           </div>
           <div className="content-right content">
             <BarBox>
-              <Text className="quote mb-1">공부하면서 만든 개인 라이브러리</Text>
+              <Text className="quote mb-2 fw--600" size="lg" color="primary">
+                공부하면서 만든 개인 라이브러리
+              </Text>
               <ul className="list">
                 <li>
                   <Text>
@@ -60,8 +62,8 @@ const OtherExperience = () => {
         <div className="content__wrap">
           <div className="content-left content">
             <Stack direction="col" gap={1} className="experience-desc">
-              <Heading size={6} level="h6" color="primary" className="fw--600">
-                Velog
+              <Heading size={6} level="h6" color="primary">
+                Velog<span className="fc--information">.</span>
               </Heading>
               <a href="https://velog.io/@_imhyunnn/" target="_blank" className="text-underline">
                 https://velog.io/@_imhyunnn/
@@ -76,7 +78,9 @@ const OtherExperience = () => {
           </div>
           <div className="content-right content">
             <BarBox>
-              <Text className="quote mb-1">개인 기술 블로그</Text>
+              <Text className="quote mb-2 fw--600" size="lg" color="primary">
+                개인 기술 블로그
+              </Text>
               <ul className="list">
                 <li>
                   <Text>
@@ -87,13 +91,9 @@ const OtherExperience = () => {
                 </li>
                 <li>
                   <Text>
-                    취업 준비 중 작성한 기술 글이 주간 인기 글에 선정되어 큰 보람을 느꼈고, 다른 사람들의 다양한
-                    인사이트를 얻는 계기가 되었습니다.
-                  </Text>
-                </li>
-                <li>
-                  <Text>
-                    현재는 업무에 집중하며 블로그 활동을 잠시 쉬고 있으나, 향후 학습 내용을 다시 공유할 계획입니다.
+                    취업 준비 중 작성한 기술 글이 주간 인기 글에 선정되어 큰 보람을 느꼈으며,
+                    <br />
+                    다른 사람들의 다양한 인사이트를 얻는 계기가 되었습니다.
                   </Text>
                 </li>
               </ul>
