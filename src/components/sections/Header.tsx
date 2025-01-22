@@ -11,7 +11,7 @@ const Header = () => {
             김동현
           </Heading>
           <Text color="secondary" size="lg" className="fw--300">
-            프론트엔드 개발자
+            웹 퍼블리셔
           </Text>
         </Stack>
         <div className="header-right">
