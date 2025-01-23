@@ -16,7 +16,7 @@ const AboutMe = () => {
         <div className="content-right content">
           <Text color="secondary" size="lg">
             웹 퍼블리셔로 2년간 다양한 프로젝트를 진행하면서 자연스럽게 &nbsp;
-            <span className="fc--primary fw--700">웹 퍼블리셔</span>에 대한 관심을 가지게 되었습니다.
+            <span className="fc--primary fw--700">프론트엔드 개발</span>에 대한 관심을 가지게 되었습니다.
           </Text>
           <Text color="secondary" size="lg">
             현재는 &nbsp;
