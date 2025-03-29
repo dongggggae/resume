@@ -49,18 +49,18 @@ const WorkExperience = () => {
                     </Text>
                     <ul className="list">
                       <li>
-                        <Text>Nuxt.js를 사용해 관리자 대시보드의 페이지 및 기능 구현</Text>
+                        <Text>Nuxt.js를 사용해 관리자 대시보드의 페이지 및 기능을 구현했습니다.</Text>
                       </li>
                       <li>
-                        <Text>기존 디자인 시스템을 프로젝트 요구에 맞게 오버라이딩 작업</Text>
+                        <Text>기존 디자인 시스템을 프로젝트 요구에 맞게 오버라이딩하여 적용했습니다.</Text>
                       </li>
                       <li>
-                        <Text>VeeValidate와 Yup을 활용한 유효성 검사 구현을 경험</Text>
+                        <Text>VeeValidate와 Yup을 활용한 유효성 검사 기능을 구현했습니다.</Text>
                       </li>
                       <li>
                         <Text>
                           더미 데이터를 JS로 만들어 화면에 표시하는 작업을 진행하며, 데이터를 동적으로 렌더링 하는
-                          방법을 경험
+                          방법을 경험했습니다.
                         </Text>
                       </li>
                     </ul>
@@ -109,7 +109,7 @@ const WorkExperience = () => {
                         <Text>강의 소개 페이지 개발</Text>
                       </li>
                       <li>
-                        <Text>SEO 작업을 위해 meta 태그를 개선하는 작업</Text>
+                        <Text>SEO 작업을 위해 meta 태그를 개선하는 작업을 했습니다.</Text>
                       </li>
                     </ul>
                   </Stack>
@@ -153,13 +153,13 @@ const WorkExperience = () => {
                     </Text>
                     <ul className="list">
                       <li>
-                        <Text>SCSS 함수 작성 및 활용으로 코드의 재사용성과 유지보수성 향상</Text>
+                        <Text>SCSS 함수 작성 및 활용으로 코드의 재사용성과 유지보수성 향상했습니다.</Text>
                       </li>
                       <li>
-                        <Text>기존 디자인 시스템을 새로운 프로젝트에 맞게 오버라이딩</Text>
+                        <Text>기존 디자인 시스템을 새로운 프로젝트에 맞게 오버라이딩하여 적용했습니다.</Text>
                       </li>
                       <li>
-                        <Text>Vue 기반 컴포넌트 호출 방식 및 사용 가이드 작성에 기여</Text>
+                        <Text>Vue 기반 컴포넌트 호출 방식 및 사용 가이드를 작성했습니다.</Text>
                       </li>
                     </ul>
                   </Stack>
@@ -203,13 +203,15 @@ const WorkExperience = () => {
                     </Text>
                     <ul className="list">
                       <li>
-                        <Text>회원 가입, 비밀번호 재설정, 계정 알림 등 주요 프로세스에 사용되는 메일 템플릿 개발</Text>
+                        <Text>
+                          회원 가입, 비밀번호 재설정, 계정 알림 등 주요 프로세스에 사용되는 메일 템플릿 개발했습니다.
+                        </Text>
                       </li>
                       <li>
-                        <Text>HTML/CSS 를 활용하여 다양한 디바이스에서 최적화된 이메일 디자인 구현</Text>
+                        <Text>HTML/CSS 를 활용하여 다양한 디바이스에서 최적화된 이메일 디자인을 구현했습니다.</Text>
                       </li>
                       <li>
-                        <Text>다양한 플랫폼에서의 메일 호환성을 고려한 테스트 수행</Text>
+                        <Text>다양한 플랫폼에서의 메일 호환성을 고려한 테스트를 수행했습니다.</Text>
                       </li>
                     </ul>
                   </Stack>
@@ -253,13 +255,13 @@ const WorkExperience = () => {
                     </Text>
                     <ul className="list">
                       <li>
-                        <Text>Chart.js를 활용한 학생별 모의고사 성적 추이 분석 그래프 개발 및 개선</Text>
+                        <Text>Chart.js를 활용한 학생별 모의고사 성적 추이 분석 그래프 개발 및 개선했습니다.</Text>
                       </li>
                       <li>
-                        <Text>컨설팅 페이지 유지보수와 요구사항 기반 신규 기능 추가</Text>
+                        <Text>컨설팅 페이지 유지보수와 요구사항 기반 신규 기능을 추가했습니다.</Text>
                       </li>
                       <li>
-                        <Text>수강 신청 페이지 유지보수와 요구사항 기반 신규 기능 추가</Text>
+                        <Text>수강 신청 페이지의 유지보수를 수행하며, 기능 개선 작업을 진행했습니다.</Text>
                       </li>
                     </ul>
                   </Stack>
@@ -303,13 +305,13 @@ const WorkExperience = () => {
                     </Text>
                     <ul className="list">
                       <li>
-                        <Text>도서 판매 상세페이지 UI 개편 및 사용자 경험 최적화</Text>
+                        <Text>도서 판매 상세페이지 UI 개편 및 사용자 경험 최적화했습니다.</Text>
                       </li>
                       <li>
-                        <Text>시즌별 굿즈 프로모션 페이지 리뉴얼</Text>
+                        <Text>시즌별 굿즈 프로모션 페이지 리뉴얼했습니다.</Text>
                       </li>
                       <li>
-                        <Text>상시 운영되는 프로모션 페이지 신규 개발 및 배포</Text>
+                        <Text>상시 운영되는 프로모션 페이지 신규 개발 및 배포했습니다.</Text>
                       </li>
                     </ul>
                   </Stack>

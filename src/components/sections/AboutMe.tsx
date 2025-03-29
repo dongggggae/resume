@@ -15,8 +15,8 @@ const AboutMe = () => {
         </div>
         <div className="content-right content">
           <Text color="secondary" size="lg">
-            웹 퍼블리셔로 2년간 다양한 프로젝트를 진행하면서 자연스럽게 &nbsp;
-            <span className="fc--primary fw--700">프론트엔드 개발</span>에 대한 관심을 가지게 되었습니다.
+            웹 퍼블리셔로 다양한 프로젝트를 진행하며, UI·UX 구현과 웹 표준·접근성을 고려한 마크업에 강점을 가지고
+            있습니다.
           </Text>
           <Text color="secondary" size="lg">
             현재는 &nbsp;
@@ -25,12 +25,10 @@ const AboutMe = () => {
               <Badge text="Vue" size="sm" />,
               <Badge text="TypeScript" size="sm" />
             </span>
-            &nbsp;를 학습하며 개발자로서의 역량을 키워가고 있습니다.
+            &nbsp;등을 학습하며 퍼블리셔로서의 역량을 더욱 강화하고 있습니다.
           </Text>
           <Text color="secondary" size="lg">
-            저는 웹 퍼블리셔로서 쌓은 <span className="fc--primary fw--700">경험</span>과 새롭게 배울 프론트엔드
-            개발자로서의 <span className="fc--primary fw--700">역량</span>을 합쳐, 더 나은 사용자 경험을 만들어내는
-            개발자가 되고 싶습니다.
+            디자인과 개발의 경계를 이해하며, 더 나은 사용자 경험을 제공하는 퍼블리셔가 되고자 합니다.
           </Text>
         </div>
       </div>
